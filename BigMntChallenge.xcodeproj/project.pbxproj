@@ -13,6 +13,8 @@
 		1925FE5523F2154C002946AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1925FE5423F2154C002946AB /* Assets.xcassets */; };
 		1925FE5823F2154C002946AB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1925FE5723F2154C002946AB /* Preview Assets.xcassets */; };
 		1925FE5B23F2154C002946AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1925FE5923F2154C002946AB /* LaunchScreen.storyboard */; };
+		199842C223FAF95A0030A9DB /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199842C123FAF95A0030A9DB /* Onboarding.swift */; };
+		199842C423FB282A0030A9DB /* Shapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199842C323FB282A0030A9DB /* Shapes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		1925FE5723F2154C002946AB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1925FE5A23F2154C002946AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1925FE5C23F2154C002946AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		199842C123FAF95A0030A9DB /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
+		199842C323FB282A0030A9DB /* Shapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shapes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,12 +61,14 @@
 			isa = PBXGroup;
 			children = (
 				1925FE4E23F2154B002946AB /* AppDelegate.swift */,
+				199842C323FB282A0030A9DB /* Shapes.swift */,
 				1925FE5023F2154B002946AB /* SceneDelegate.swift */,
 				1925FE5223F2154B002946AB /* ContentView.swift */,
 				1925FE5423F2154C002946AB /* Assets.xcassets */,
 				1925FE5923F2154C002946AB /* LaunchScreen.storyboard */,
 				1925FE5C23F2154C002946AB /* Info.plist */,
 				1925FE5623F2154C002946AB /* Preview Content */,
+				199842C123FAF95A0030A9DB /* Onboarding.swift */,
 			);
 			path = BigMntChallenge;
 			sourceTree = "<group>";
@@ -148,6 +154,8 @@
 			files = (
 				1925FE4F23F2154B002946AB /* AppDelegate.swift in Sources */,
 				1925FE5123F2154B002946AB /* SceneDelegate.swift in Sources */,
+				199842C423FB282A0030A9DB /* Shapes.swift in Sources */,
+				199842C223FAF95A0030A9DB /* Onboarding.swift in Sources */,
 				1925FE5323F2154B002946AB /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

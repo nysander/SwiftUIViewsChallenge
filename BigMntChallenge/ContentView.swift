@@ -10,7 +10,18 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, World!")
+        ZStack {
+            Color.green
+                .edgesIgnoringSafeArea(.all)
+
+            HStack {
+                VStack {
+                    Spacer()
+                    Text("Bottom leading")
+                }
+                Spacer()
+            }
+        }
     }
 }
 
