@@ -1,5 +1,5 @@
 //
-//  Onboarding.swift
+//  OnboardingView.swift
 //  BigMntChallenge
 //
 //  Created by Pawel Madej on 17/02/2020.
@@ -8,7 +8,7 @@
 
 import SwiftUI
 
-struct Onboarding: View {
+struct OnboardingView: View {
     var body: some View {
         VStack(spacing: 20) {
             Text("Love smoothies?")
@@ -41,21 +41,20 @@ struct Onboarding: View {
                 .offset(x: 70)
 
             }
-//            .aspectRatio(contentMode: .fill)
-//            .frame(width: 120, height:120)
-//            .cornerRadius(.infinity)
-
 
             Button(action: {}) {
                 HStack {
                     Text("Let's prepare your first now ...")
                         .foregroundColor(.white)
-                    Image(systemName: "arrow.2.circlepath").foregroundColor(.white).rotationEffect(Angle(degrees: 30))
+                    Image(systemName: "arrow.2.circlepath")
+                        .foregroundColor(.white)
+                        .rotationEffect(Angle(degrees: 30))
                 }
             }
         .padding()
             .padding(.horizontal)
-            .background(Color.purple).clipShape(Capsule(style: .continuous))
+            .background(Color.purple)
+            .clipShape(Capsule(style: .continuous))
         }
         .padding(.vertical, 20)
     }
@@ -63,7 +62,7 @@ struct Onboarding: View {
 
 struct Onboarding_Previews: PreviewProvider {
     static var previews: some View {
-        Onboarding()
+        OnboardingView()
     }
 }
 

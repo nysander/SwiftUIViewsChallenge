@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  LayoutView.swift
 //  BigMntChallenge
 //
 //  Created by Pawel Madej on 10/02/2020.
@@ -8,7 +8,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct LayoutView: View {
     var body: some View {
         ZStack {
             Color.green
@@ -27,6 +27,6 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        LayoutView()
     }
 }

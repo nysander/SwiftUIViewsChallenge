@@ -1,5 +1,5 @@
 //
-//  Shapes.swift
+//  ShapesView.swift
 //  BigMntChallenge
 //
 //  Created by Pawel Madej on 17/02/2020.
@@ -8,7 +8,7 @@
 
 import SwiftUI
 
-struct Shapes: View {
+struct ShapesView: View {
     var body: some View {
         ZStack {
             VStack(spacing: 0) {
@@ -121,7 +121,7 @@ struct Shapes: View {
 
 struct Shapes_Previews: PreviewProvider {
     static var previews: some View {
-        Shapes()
+        ShapesView()
     }
 }
 
