@@ -48,7 +48,7 @@ struct LoginView: View {
                                     Text("Enter name")
                                     Spacer()
                                 }
-                                TextField("Enter name", text: $login)
+                                TextField("", text: $login)
                             }
                         }
                     }
@@ -127,6 +127,5 @@ struct Login_Previews: PreviewProvider {
         LoginView()
     }
 }
-
 
 //Photo by Henry Be on Unsplash

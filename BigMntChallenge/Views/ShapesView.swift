@@ -13,7 +13,7 @@ struct ShapesView: View {
         ZStack {
             VStack(spacing: 0) {
                 Rectangle()
-                    .fill(Color.green)
+                    .fill(Color.white)
                     .overlay(
                         Image("exercise")
                             .resizable()
