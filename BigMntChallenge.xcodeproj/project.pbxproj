@@ -53,6 +53,7 @@
 		1925FE4223F2154B002946AB = {
 			isa = PBXGroup;
 			children = (
+				194B227824047F1B00857AFE /* README.md */,
 				1925FE4D23F2154B002946AB /* BigMntChallenge */,
 				1925FE4C23F2154B002946AB /* Products */,
 			);
@@ -76,7 +77,6 @@
 				1925FE5623F2154C002946AB /* Preview Content */,
 				1925FE5023F2154B002946AB /* SceneDelegate.swift */,
 				194B227724047C8D00857AFE /* Views */,
-				194B227824047F1B00857AFE /* README.md */,
 			);
 			path = BigMntChallenge;
 			sourceTree = "<group>";
