@@ -15,23 +15,29 @@ struct AppView: View {
                 Text("SwiftUI Views Challenge").font(.largeTitle)
                 Text("by Big Mountain Studio").font(.title)
 
-                Spacer()
-                
                 List {
                     NavigationLink(destination: LayoutView()) {
                         Text("Module 3 - Layout Views")
                     }
+
                     NavigationLink(destination: OnboardingView()) {
                         Text("Module 4 - Onboarding Screen")
                     }
+
                     NavigationLink(destination: ShapesView()) {
                         Text("Module 5 - Shapes")
                     }
+
                     NavigationLink(destination: TextFieldsView()) {
                         Text("Module 6 - TextFields")
                     }
+
                     NavigationLink(destination: LoginView()) {
                         Text("Module 7 - Login Screen")
+                    }
+
+                    NavigationLink(destination: ListView()) {
+                        Text("Module 9 - Lists")
                     }
                 }
             }

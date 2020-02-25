@@ -13,6 +13,7 @@
 		1925FE5523F2154C002946AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1925FE5423F2154C002946AB /* Assets.xcassets */; };
 		1925FE5823F2154C002946AB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1925FE5723F2154C002946AB /* Preview Assets.xcassets */; };
 		1925FE5B23F2154C002946AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1925FE5923F2154C002946AB /* LaunchScreen.storyboard */; };
+		194233722405949400DBAD57 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194233712405949400DBAD57 /* ListView.swift */; };
 		194B22722404353900857AFE /* TextFieldsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194B22712404353900857AFE /* TextFieldsView.swift */; };
 		194B22742404490000857AFE /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194B22732404490000857AFE /* LoginView.swift */; };
 		194B22762404797800857AFE /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194B22752404797800857AFE /* AppView.swift */; };
@@ -29,6 +30,7 @@
 		1925FE5723F2154C002946AB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1925FE5A23F2154C002946AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1925FE5C23F2154C002946AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		194233712405949400DBAD57 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		194B22712404353900857AFE /* TextFieldsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldsView.swift; sourceTree = "<group>"; };
 		194B22732404490000857AFE /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		194B22752404797800857AFE /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
@@ -96,6 +98,7 @@
 				199842C123FAF95A0030A9DB /* OnboardingView.swift */,
 				199842C323FB282A0030A9DB /* ShapesView.swift */,
 				194B22712404353900857AFE /* TextFieldsView.swift */,
+				194233712405949400DBAD57 /* ListView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -179,6 +182,7 @@
 				199842C223FAF95A0030A9DB /* OnboardingView.swift in Sources */,
 				1925FE5323F2154B002946AB /* LayoutView.swift in Sources */,
 				194B22722404353900857AFE /* TextFieldsView.swift in Sources */,
+				194233722405949400DBAD57 /* ListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
