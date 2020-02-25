@@ -32,6 +32,7 @@
 		194B22712404353900857AFE /* TextFieldsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldsView.swift; sourceTree = "<group>"; };
 		194B22732404490000857AFE /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		194B22752404797800857AFE /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
+		194B227824047F1B00857AFE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		199842C123FAF95A0030A9DB /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		199842C323FB282A0030A9DB /* ShapesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -73,6 +74,7 @@
 				1925FE5623F2154C002946AB /* Preview Content */,
 				1925FE5023F2154B002946AB /* SceneDelegate.swift */,
 				194B227724047C8D00857AFE /* Views */,
+				194B227824047F1B00857AFE /* README.md */,
 			);
 			path = BigMntChallenge;
 			sourceTree = "<group>";
